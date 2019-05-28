@@ -13,7 +13,48 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
+  <form action="#" method="POST">
+    <fieldset>
+      <legend>Personal information</legend>
+      Surname: <input type="text"><br><br>
+      Name: <input type="text"><br><br>
+      How old are You? <input type="number"><br><br>
+      Full date of birth: <input type="date"><br><br>
+      I accept the term of the agreement <input type="checkbox">
+    </fieldset><br>
+    <fieldset>
+      <legend>Registration</legend>
+      E-mail: <input type="email" placeholder="email@example.com"><br><br>
+      Password: <input type="password">
+    </fieldset><br>
+    <fieldset>
+      <legend>An interesting fact about you!</legend>
+      Do you love cats?
+      <input type="radio" name="love" id="yes"> Yes
+      <input type="radio" name="love" id="no"> No
+      <br><br>
+      What is your favorite color? <input type="color"><br><br>
+      What time to you go to bed? <input type="time"><br><br>
+      What are your favorite brand of cars?
+      <select>
+        <option>BMW</option>
+        <option>Audi</option>
+        <option>Lada</option>
+      </select>
+      <br><br>
+      How do you rate our work? <input type="range" value="0">
+    </fieldset><br>
+    <fieldset>
+      <legend>Additional info:</legend>
+      Comments: <textarea></textarea><br><br>
+      Would you recommend us?
+      <select>
+        <option>yes</option>
+        <option>no</option>
+      </select>
+    </fieldset>
+    <p><input type="submit" value="Submit"></p>
+  </form>
 <script type="text/javascript" src="./main.js"></script>
 </body>
 </html>
